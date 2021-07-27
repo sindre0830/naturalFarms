@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Farm path -->
+	<TerrainDef ParentName="pathBase">
+		<defName>farmPath</defName>
+		<label>farm path</label>
+		<description>A simple farm path.</description>
+		<texturePath>Terrain/Surfaces/farmPath</texturePath>
+		<renderPrecedence>330</renderPrecedence>
+		<edgeType>Fade</edgeType>
+	</TerrainDef>
+	<!-- Small Stream -->
+	<TerrainDef ParentName="WaterShallowBase">
+		<defName>smallStream</defName>
+		<label>small stream</label>
+		<description>A small stream.</description>
+		<designationCategory>NaturalPaths</designationCategory>
+		<renderPrecedence>329</renderPrecedence>
+		<passability>Standable</passability>
+		<texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+		<driesTo>Soil</driesTo>
+		<pathCost>1</pathCost>
+		<statBases>
+			<Beauty>2</Beauty>
+			<WorkToBuild>150</WorkToBuild>
+		</statBases>
+		<edgeType>Fade</edgeType>
+	</TerrainDef>
+</Defs>
