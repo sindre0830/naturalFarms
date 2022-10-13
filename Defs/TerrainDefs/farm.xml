@@ -26,6 +26,5 @@
 			<Beauty>2</Beauty>
 			<WorkToBuild>150</WorkToBuild>
 		</statBases>
-		<edgeType>Fade</edgeType>
 	</TerrainDef>
 </Defs>
